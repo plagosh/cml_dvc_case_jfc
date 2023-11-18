@@ -14,8 +14,6 @@ jobs:
       - uses: iterative/setup-cml@v1
 
       - uses: iterative/setup-dvc@v1
-        with:
-          version: '1.0.1'
 
       - uses: actions/setup-python@v2
         with:
